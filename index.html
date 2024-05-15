@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <nav>
+        <div class="flex justify-between h-10  px-5 py-2">
+            <div>
+                <img src="tfgfg.svg" alt="logo">
+            </div>
+        
+            <ul class=" hidden lg:flex items-center h-18 font-semibold gap-6">
+                <p>home</p>
+
+                <li>collection</p>
+
+                <li>shop</p>
+
+                <li>about</p>
+
+                <li>contact</p>
+                </ul>
+
+            <div class=" flex items-center gap-6">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="absolute right-0 bottom-0 max-w-[300px] md:max-w-[400px] lg:max-w-[600px] mx-auto z-[-1]">
+        <img src="03_flower.png" alt="img">
+    </div>
+    <div class="w-2 h-2 absolute left-3 top-[200px] rounded-full text-transparent bg-black mt-6">1</div>
+    <div class="w-2 h-2 absolute  left-3 top-[250px] rounded-full text-transparent bg-black mt-6">1</div>
+    <div class="w-2 h-2 absolute left-3 top-[300px]  rounded-full text-transparent bg-black mt-6">1</div>
+    <div class="w-2 h-2 absolute left-3 top-[350px]  rounded-full text-transparent bg-black mt-6">1</div>
+   
+    
+
+    <div class=" flex flex-col justify-center  mt-12 px-24 h-[400px] gap-6 ">
+        <h1 class="font-bold text-6xl">MONSTERA</h1>
+
+        <p class="w-[400px] xl:w-[700px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos a facilis omnis nemo, suscipit dignissimos cupiditate  rec usandae laboriosam fugiat distinctio est ab voluptates aliquam sint cumque voluptas saepe incidunt laborum.
+        </p>
+        <button class="border rounded-full bg-green-800 text-white w-56 px-6 py-2 text-xl font-semibold tracking-wider">discover ></button>
+    </div>
+
+<div class="hidden xl:flex gap-6">
+
+    <div class="flex gap-6 ">
+        <div class="pl-28 py-4  ">
+            <i class="fa-solid fa-shower fa-2xl"></i>
+        </div>
+         
+    <div>
+        <p>feeding</p>
+        <p>don't overwater</p>
+    </div>
+            
+    </div>
+    
+    <div class="flex gap-6">
+        <div class="py-4 px-2">
+            <i class="fa-regular fa-lightbulb fa-2xl"></i>
+        </div>
+        
+        <div>
+            <p>light</p>
+            <p>plants like sunshine</p>
+        </div>
+        
+    </div>
+     
+    
+
+    <div class="flex">
+
+        
+        <div class="py-4 px-2">
+            <i class="fa-solid fa-trowel fa-2xl"></i>
+        </div>
+        <div>
+            <p>care</p>
+            <p>right pot size matters!</p>
+        </div>
+
+    </div>
+
+
+
+</div>
+    
+        
+    </body>  
+    
+</html>
